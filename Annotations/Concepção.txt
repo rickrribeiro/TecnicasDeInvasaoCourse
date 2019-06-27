@@ -1,0 +1,64 @@
+3  Pilares
+confidencialidade
+controle de acesso. Acesso apenas a quem tem permissão.
+Integridade
+
+       General de guerra manda "Não" e chega "Sim". General mandou "Retirada" e corneteiro Luis Lopes tocou avançar na batalha de pirajá para independência da Bahia.      
+Disponibilidade
+Sempre disponivel
+
+   Recomendações literatura    
+Testes de Invasão: Uma introdução prática ao hacking :Georgia Weidman
+hackers expostos 7
+mercado sombrio
+As armas da persuasão
+BE-A-ABA
+Malware
+Um malware é considerado um tipo de software maligno que acessa secretamente um dispositivo sem o conhecimento do usuário 
+Pishing
+Paginas e servições falsos para "pescar" a senha do usuario
+Trojan
+Um Trojan, ou Cavalo de Troia, é um tipo de vírus espalhado geralmente a partir de um anexo de e-mail infectado ou um download que esconde games gratuitos, aplicativos, filmes ou cartões de visita. 
+Ransomware
+O ransomware, conhecido como malware sequestrador, restringe o acesso ao sistema do usuário ao seu computador e pede que um resgate seja pago para que os dados sejam devolvidos 
+RootKit
+Um rootkit é um programa designado a fornecer a crackers acesso administrativo ao computador sem que o usuário tenha conhecimento     
+
+BASE do curso
+     Conhecer
+     o alvo?
+     coletar toda info possivel
+     maltego
+     rastrear
+     google hacking
+shodan   
+
+     Analisar
+     vetores
+     servicos
+     enumerar
+     Explorar
+     A invasão
+
+     Mostrar foto na praça da sé? No face mais pessoas vão ver...
+Aspectos Legais
+     g
+
+         
+
+== BLOGS
+StaySafe Podcast (http://www.staysafepodcast.com.br)
+Krebs on Security (http://krebsonsecurity.com)
+SANS (https://www.sans.org)
+Anchiseslandia (http://anchisesbr.blogspot.com)
+IO Publishing (https://medium.com/io-publishing)
+Malware don't need Coffee(http://malware.dontneedcoffee.com)
+INTECO – ES (https://www.incibe.es)
+Bruce Schneier (https://www.schneier.com)
+== HACKERSSPACE
+Garoa Hacker Clube (garoa.net.br)
+SJC HackerClube (http://sjchackerclube.com.br)
+Laboratório Hacker de Campinas (http://lhc.net.br)
+Area31 Hackerspace (http://www.area31.net.br)
+            
+
