@@ -1,0 +1,42 @@
+Desktop:
+uplink.co.uk
+exosyphen.com
+streethacker.com
+owasp.org
+dvda.co.uk
+hackingdojo.com/dojo-media
+
+uplink.co.uk
+exosyphen.com
+streethacker.com
+owasp.org
+dvda.co.uk
+hackingdojo.com/dojo-media
+
+principais:
+    -100security.com.br/wargame
+    -hackertest.net
+    -mod-x.co.uk
+    -try2hack.nl
+    -hackthissite.org
+    -bigchallenge.free.fr
+
+secundarios:
+    -bright-shadows.net
+    -crackmes.de
+    -dareyourmind.net
+    -hackquest.de
+    -hackthis.co.uk
+    -hax.tor.hu
+    -hellboundhackers.org
+    -honeynet.org
+    -challenges.ihtb.org
+    -roothack.org
+    -trythis0ne.com
+    -overthewire.org/wargames
+    -logic.smashthehack.org:88
+    -io.smashthestack.org:84
+    -blackbox.smashthestack.org:85
+    -tux.smashthestack.org:86
+    -www.smashthestack.org/wargames/ctf
+    -www.smashthestack.org/wargames/apfel
