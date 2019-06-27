@@ -1,1 +1,50 @@
-
+﻿﻿ctrl+l limpa terminal
+diretorio raiz : /
+/bin binarios executaveis
+/usr programas diversos
+/etc configuração do sistema
+/lib biblioteca
+/opt aplicativos
+/home arquivos pessoais
+/boot inicialização
+/srv serviços em execução
+/var variaveis do sistema
+/mnt e /media ;/devolumes e midias
+/dev pendrive
+/proc processos do sistema
+/tmp temporarios
+rm -rf dir -> força recursivamente
+VIm     
+     deletar linha :dd
+/termo busca termo
+cat
+     ctrl +d salva e sai
+cat -n file       mostra linhas
+     cat > arquivo.txt    cria o arquivo e insere os dados substituindo os interiores
+     cat >> arquivo.txt concatena o antigo com o novo
+tail 
+     tail arquivo printa as ultimas 10 linhas     
+     tail -nx arquivo   ve as ultimas x linhas
+tails -f arquivo       fica assistindo o arquivo e altera se ele alterar
+chmod
+     chmod 777 arquivo    todas as permissões p todo mundo
+     chmod 644 arquivo     adm le e escreve, resto le
+chmod +x arquivo     torna executavel
+/etc
+Systemctl -> gerenciador de estados do sistema
+     systemctl -t service  ->  mostra os serviços do sistema
+     systemctl status ServiceName  -> mostra o status
+systemctl start ServiceName
+systemctl stop ServiceName
+ps
+     mostra processos
+ps aux  |grep wordToFind
+kill -9  processName 
+history mostra os ultimos comandos utilizados
+whoami mostra quem estou logado
+systemmd -> gerenciador de serviços
+TOP -> mostra os processos
+HTOP -> visualizador interativo de processos
+locate -> encontra arquivo
+grep  --color "str"
+     grep -v busca oq não tem
