@@ -1,0 +1,1 @@
+tcpdump -n(não resolve nomes) -c "numero" -i "interface name" "protocolname" and src "IP A SER BUSCADO" 
