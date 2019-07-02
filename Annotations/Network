@@ -1,0 +1,147 @@
+     Comunicação de dados é a troca de informação entre dois dispositivos através de algum meio de comunicação ex: Fios
+Composição de um sistema básico de comunicação de dados:
+
+    Mensagem
+        É a informação a ser transmitida
+    Transmissor
+        É o dispositivo que envia a mensagem
+    Receptor
+        É  o dispositivo  que recebe a mensagem
+    Meio
+        É o caminho físico por onde trafega
+    Protocolo
+        É o conjunto de regras que rege a comunicação de dados
+
+
+
+Classificação de redes
+
+    LANs(Local Area Network)
+             Rede interna dentro de alguma instituição
+    MANs(Metropolitan Area Network)
+             Interligam várias LANs dentro de uma área
+    WANs (Wide Area Network) 
+             Interligação de LANs geograficamente distribuídas
+
+
+     Topologias
+
+    Barramento
+        Todas as maquinas são ligadas por um barramento e param de funcionar se o barramento parar
+    Estrela
+        Todas as maquinas são ligadas a um dispositivo que faz a comutação
+    Anel
+        as maquinas são conectadas às vizinhas
+
+
+Meios de transmissão
+
+-campo eletromagnético interferencia
+
+    Cabo coaxial
+         Fio de cobre (tv)
+    Par Trançado
+        UTP(sem blindagem para interferência)
+        STP(com blindagem para interferência)
+    Fibra ótica
+        Imune a ruído
+        mais rápido
+
+
+
+Modelo OSI
+
+    Camada de Aplicação
+    Camada de Apresentação
+    Camada de Sessão
+    Camada de Transporte
+    Camada de Rede
+    Camada de Enlace
+    Camada Fisica
+
+    
+
+Modelo TCP/IP
+
+    Aplicação
+    Transporte
+    Rede
+    Ligação
+    Fisica
+
+
+Classes
+A> 10.0.0.1 ->10.255.255.255
+B>172.16.0.0 -> 172.31.255.255
+C>192.168.0.0 -> 192.168.255.255
+proxy verifica dado
+
+
+Divisão
+﻿
+32 bits divididos entre rede/host
+255.255.255.255
+xxx.xxx.xxx|yyy
+primeiros 3 octetos são p representar a rede e o ultimo pro host
+xxx.xxx.xxx.0 é o ip que representa a rede
+xxx.xxx.xxx.255  é o broadcast (manda p tudo)
+subrede
+ex: 25 bits redes/ 7bits hosts
+192.168.0.127 é uma e 192.168.0.128 outra
+mascara ex(diz até aonde é a rede: /24 (255.255.255.0) -> 24 bits pra redes e 8 pra host
+
+gateway -> maquina que encaminha para rede externa. geralmente 1º ip valido ou penultimo ex: 192.168.0.1     ou 192.168.0.254
+encaminha pro gateway e o gateway encaminha p fora
+
+DHCP
+Protocolo para solicitar um ip a um servidor DHCP
+a
+
+
+
+Protocolos de compunicação: Conjunto de regras para a comunicação entre os dispositivos
+
+mac: endereço físico da placa de rede
+
+
+
+Telnet -> Protocolo para comunicação entre maquinas
+     telnet ip porta
+
+
+
+
+TCPDUMP
+
+Captura pacotes
+ex:    tcpdump -i eth0 -w file.cap (salva tudo no arquvo e tcpdump -r cap.cap    lê )
+tcpdump i- eth0 icmp  -c 50 (procura os 50 ultimos protocolos icmp)
+ls
+
+
+
+NETSTAT
+netstat -n (analisa as conexoes sem resolver nome)
+netstat -tun    (tcp e udp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
