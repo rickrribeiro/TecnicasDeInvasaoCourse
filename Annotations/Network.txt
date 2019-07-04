@@ -93,10 +93,20 @@ mascara ex(diz até aonde é a rede: /24 (255.255.255.0) -> 24 bits pra redes e 
 gateway -> maquina que encaminha para rede externa. geralmente 1º ip valido ou penultimo ex: 192.168.0.1     ou 192.168.0.254
 encaminha pro gateway e o gateway encaminha p fora
 
+ARP e Ethernet
+ff:ff:ff:ff:ff:ff  -> broadcast
+quando manda a solicitação ARP  manda pergunta "quem é o xxx?" e recebe o mac adress na resposta
+Porém ARP não é seguro, pode ter falsificação na resposta(arp spoofing) e fazer um man in the midle
+Só é utilizado na primeira comunicação, após isso já sabemos o mac adress
+pacote Ethernet é o pacote de comunicação na rede. dentro dele pode ficar o tcp/ip
+
+DNS
+ex: ricardo.salvador.bahia.brasil
+brasil busca nos estados pro bahia, bahia busca nas cidades por salvador e salvador busca nas pessoas por ricardo
+Resolve Nomes
+
 DHCP
 Protocolo para solicitar um ip a um servidor DHCP
-a
-
 
 
 Protocolos de compunicação: Conjunto de regras para a comunicação entre os dispositivos
@@ -109,7 +119,12 @@ Telnet -> Protocolo para comunicação entre maquinas
      telnet ip porta
 
 
+Subredes
 
+ex: 192.168.1.0 /25
+       192.168.1.128 /25
+     255.255.255.224 = 255
+     xxx.xxx.xxx.0/27
 
 TCPDUMP
 
