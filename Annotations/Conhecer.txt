@@ -1,0 +1,42 @@
+Conhecer
+Analisar todas as possibilidades - ex: Parceiros, contatos, endereço, noticias, dados operacionais, empregadosa, redes sociais
+
+Fazer Pentest Mind Map
+
+possibilidades
+     1. Site de empregos -> encontra informações sobre a empresa
+     2. Archive.org (Antigos do site) -> Dados expostos
+     3. Whois (busca informações do site)
+     4. Shodan (dispositivos abertos)
+              4.1- Flags ex: countr:br city:salvador port:23 geo:(coordenadas)
+     LEMBRAR DE VER EXTENSÃO DO SHodan CHROME
+     5.Censys
+     6. Google Hacking
+              6.1-Operadores
+                   6.1.1 - site (limita a um site)
+                   6.1.2 - intitle (texto na tag title)
+                   6.1.3 - inurl (texto no url)
+                   6.1.4 - intext (texto da pagina)
+                   6.1.5 - filetype (tipo de arquivo)
+              6.2 - Google Hacking Database
+
+
+
+Coletando informações
+Email
+     hunter.io
+         slik.ai
+         atompark.com
+         TheHarvester (ex> theharvester -d google.com -l 500)
+
+verificar senhas vazadas haveibeenpwned.com
+pastebin.com     ver conversas
+
+
+
+
+
+
+
+
+
