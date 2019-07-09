@@ -1,0 +1,11 @@
+firewall
+mail
+acesso
+server
+ead
+noticias
+esportes
+admin
+politica
+brasil
+mundo
