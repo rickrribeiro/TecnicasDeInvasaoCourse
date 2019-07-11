@@ -1,0 +1,7 @@
+Varredura ICMP -> encontrar hosts
+      1. fping -c1 -g 192.168.1.0 192.168.0.255
+      2. nmap -sP 192.168.1.0/24  (mais infos e mais potente por pega todos os pacotes, porém é mais facil de ser identificado)
+
+bloquear ICMP
+     iptables -A INPUT -p icmp --icmp-type 8 -d 192.168.1.0/24 -j DROP
+iptables é o nome da ferramenta da interface do usuário que permite a criação de regras de firewall e NATs.
