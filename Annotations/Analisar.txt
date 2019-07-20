@@ -5,3 +5,12 @@ Varredura ICMP -> encontrar hosts
 bloquear ICMP
      iptables -A INPUT -p icmp --icmp-type 8 -d 192.168.1.0/24 -j DROP
 iptables é o nome da ferramenta da interface do usuário que permite a criação de regras de firewall e NATs.
+
+Flags TCPs
+     1.SYN - initialize connection
+     2.SYN-ACK - Response
+     3 .ACK - Establish connection
+     4.FIN - Finalize
+     5.RST - Reset
+
+nmap -sV ip (versao) --open (portas abertas)   -pNUM(ve se a porta NUM ta aberta)
