@@ -1,4 +1,4 @@
-
+l
 #!/bin/bash
 
 echo "Digite um número qualquer:"
